@@ -1,0 +1,25 @@
+.job-details {
+  background-color: #ffe0e0; /* Light pink background */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.job-details h2 {
+  color: #d6336c; /* Dark pink for the title */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.job-details p {
+  color: #333;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.job-details strong {
+  color: #d6336c; /* Dark pink for labels */
+}

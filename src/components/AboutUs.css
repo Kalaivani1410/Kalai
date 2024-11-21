@@ -1,0 +1,26 @@
+/* AboutUs.css */
+
+.about-us {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .about-us h3 {
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us p {
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  

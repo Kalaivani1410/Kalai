@@ -1,0 +1,53 @@
+/* App.css */
+
+.job-listings {
+  padding: 20px;
+}
+
+.job-listings h2 {
+  color: #eae8e8; /* Dark font color */
+}
+
+.job-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Increased minmax to 300px */
+  gap: 20px;
+}
+
+.job-card {
+  background-color: #f9f7f9; /* Light gray background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.job-card h3 {
+  color: #333333; /* Dark font color */
+}
+
+.job-card p {
+  color: #666666; /* Gray font color */
+}
+
+.job-card a {
+  color: #f18e0d; /* Orange link color */
+  text-decoration: none;
+}
+
+.job-card a:hover {
+  color: #ff8500; /* Darker orange on hover */
+}
+
+/* Adjust button size */
+.job-card .apply-button {
+  display: inline-block;
+  background-color: #007bff; /* Blue background color */
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.job-card .apply-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

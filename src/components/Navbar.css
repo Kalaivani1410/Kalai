@@ -1,0 +1,110 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #581143;
+  padding: 10px;
+}
+.h1{
+  color: #ccc;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-right: 1rem;
+}
+
+.navbar a,
+.navbar button {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.navbar a:hover,
+.navbar button:hover {
+  background-color: #d81365;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  margin-right: 0.5rem;
+}
+
+.search-form button {
+  background-color: #f8f1f1;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form button:hover {
+  background-color: #575757;
+}
+
+/* Styles for the Post Job dropdown */
+.post-job-dropdown-container {
+  position: relative;
+}
+
+.post-job-button {
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-job-button:hover {
+  background-color: #575757;
+}
+
+.post-job-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0.5rem;
+  width: 150px; /* Adjust width as needed */
+}
+
+.post-job-dropdown a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.post-job-dropdown a:hover {
+  background-color: #f0f0f0;
+}

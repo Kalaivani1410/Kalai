@@ -1,0 +1,115 @@
+.signup-container {
+  max-width: 600px; /* Increased max-width for better form layout */
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #b7a3c7;
+}
+.signup-container p{
+  color:#1a022d;
+}
+.signup-container h2 {
+  margin-bottom: 30px; /* Increased margin-bottom for spacing */
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increased margin-bottom for spacing between form groups */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px; /* Increased font-size for better readability */
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px; /* Added margin-top to separate buttons from form inputs */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.google-signup {
+  background-color: #db4437;
+}
+
+.google-signup:hover {
+  background-color: #c23321;
+}
+
+.signup-links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-links a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  font-size: 14px; /* Adjusted font-size for error messages */
+  margin-top: 5px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content h3 {
+  margin-top: 0;
+}
+
+.popup-content button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup-content button:hover {
+  background-color: #0056b3;
+}

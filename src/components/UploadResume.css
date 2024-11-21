@@ -1,0 +1,100 @@
+.upload-resume {
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 20px; /* Align the container to the left */
+}
+
+.upload-resume h2 {
+  text-align: center;
+  color: #fbf7f7;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  flex: 0 0 150px;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #fbf9f9;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+}
+
+.radio-group label {
+  margin-right: 10px; /* Add space between radio buttons */
+}
+
+.file-input {
+  display: flex;
+  align-items: center;
+  color: #ddd;
+}
+
+.file-input button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.file-input button:hover {
+  background-color: #0056b3;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-buttons button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.form-buttons button:last-child {
+  margin-right: 0;
+}
+
+.form-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}

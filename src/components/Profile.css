@@ -1,0 +1,66 @@
+.profile-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+  margin-bottom: 20px;
+}
+
+.profile-section {
+  margin-bottom: 20px;
+}
+
+.profile-notes textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.profile-notes .error {
+  border-color: red;
+}
+
+.profile-notes .error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.profile-notes button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.profile-notes button:hover {
+  background-color: #0056b3;
+}
+
+.download-resume-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.download-resume-button:hover {
+  background-color: #218838;
+}

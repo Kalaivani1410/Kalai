@@ -1,0 +1,33 @@
+.home {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.home-header {
+  background-color: #031e33;
+  padding: 2px;
+  color: white;
+}
+.home-content h1{
+  size: 0vmax;
+}
+.home-content {
+  padding: 20px;
+}
+
+.intro {
+  font-size: 18px;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.image-section {
+  overflow: hidden; /* Ensures images don't overflow parent container */
+}
+
+.image-section img {
+  width:fit-content; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  object-fit: cover; /* Ensures images maintain aspect ratio and cover the designated area */
+  margin-right: 20px; /* Adds spacing between images */
+}
